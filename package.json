@@ -53,11 +53,9 @@
     "typescript": "^5.2.2",
     "vite": "^6.2.2"
   },
-  "workspaces": {
-    "packages": [
-      "extensions/*"
-    ]
-  },
+  "workspaces": [
+    "extensions/*"
+  ],
   "trustedDependencies": [
     "@shopify/plugin-cloudflare"
   ],
