@@ -10,8 +10,8 @@ import {
 } from "@shopify/polaris";
 import { Form, useActionData, useLoaderData } from "@remix-run/react";
 
-import { login } from "../../shopify.server";
-import { loginErrorMessage } from "./error.server";
+import { login } from "../../.server/shopify";
+import { loginErrorMessage } from "../../.server/error";
 import polarisStyles from "@shopify/polaris/build/esm/styles.css?url";
 import polarisTranslations from "@shopify/polaris/locales/en.json";
 import { useState } from "react";

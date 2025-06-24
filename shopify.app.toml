@@ -3,7 +3,7 @@
 client_id = "379eb157ae7dc9d119c3bb542a36c3e2"
 name = "transiton-en-to-he"
 handle = "transiton-en-to-he"
-application_url = "https://unavailable-chevy-carmen-plate.trycloudflare.com"
+application_url = "https://bidder-sized-districts-reforms.trycloudflare.com"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ api_version = "2025-04"
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://unavailable-chevy-carmen-plate.trycloudflare.com/auth/callback", "https://unavailable-chevy-carmen-plate.trycloudflare.com/auth/shopify/callback", "https://unavailable-chevy-carmen-plate.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://bidder-sized-districts-reforms.trycloudflare.com/auth/callback", "https://bidder-sized-districts-reforms.trycloudflare.com/auth/shopify/callback", "https://bidder-sized-districts-reforms.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false

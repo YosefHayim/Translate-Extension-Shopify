@@ -3,7 +3,7 @@ import { Link, Outlet, useLoaderData, useRouteError } from "@remix-run/react";
 
 import { AppProvider } from "@shopify/shopify-app-remix/react";
 import { NavMenu } from "@shopify/app-bridge-react";
-import { authenticate } from "../shopify.server";
+import { authenticate } from "../.server/shopify";
 import { boundary } from "@shopify/shopify-app-remix/server";
 import polarisStyles from "@shopify/polaris/build/esm/styles.css?url";
 
