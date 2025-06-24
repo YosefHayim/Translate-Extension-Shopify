@@ -28,8 +28,13 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.get("/", (req, res) => {
-  res.status(200).send({ status: "success", message: "Backend for shopify translate app is live" });
+app.get("/auth/callback", async (req, res) => {
+  const callback = await shopify.auth.callback({
+    rawRequest: req,
+    rawResponse: res,
+  });
+
+  res.redirect("https://josrade.myshopify.com");
 });
 
 app.listen(PORT);
