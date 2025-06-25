@@ -17,7 +17,8 @@
     "prisma": "prisma",
     "graphql-codegen": "graphql-codegen",
     "vite": "vite",
-    "project-structure":"tree -I 'node_modules'"
+    "project-structure": "tree -I 'node_modules'",
+    "delete-and-reinstall": "rm -rf node_modules && rm -rf package-lock.json && npm install"
   },
   "type": "module",
   "engines": {
@@ -50,7 +51,10 @@
     "@types/react-dom": "^18.2.14",
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^10.0.1",
-    "prettier": "^3.2.4",
+    "postcss-import": "^16.1.1",
+    "prettier": "^3.6.0",
+    "prettier-plugin-tailwindcss": "^0.6.13",
+    "tailwindcss": "^4.1.10",
     "typescript": "^5.2.2",
     "vite": "^6.2.2"
   },
