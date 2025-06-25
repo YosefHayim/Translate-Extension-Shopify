@@ -12,15 +12,15 @@ export const action: ActionFunction = async ({ request }) => {
   return null;
 };
 
-const AutoPostalCode = () => {
+const RightToLeft = () => {
   return (
     <div>
-      <h1 className="bg-red-500 p-3 font-bold">Auto postal code Page</h1>
+      <h1 className="bg-red-500 p-3 font-bold">Right To Left Page</h1>
     </div>
   );
 };
 
-export default AutoPostalCode;
+export default RightToLeft;
 
 export const ErrorBoundary = ({ error }: { error: Error }) => {
   return (

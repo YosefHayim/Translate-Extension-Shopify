@@ -12,7 +12,10 @@ export const links = () => [{ rel: "stylesheet", href: polarisStyles }];
 export const loader = async ({ request }: LoaderFunctionArgs) => {
   await authenticate.admin(request);
 
-  return { apiKey: process.env.SHOPIFY_API_KEY || "" };
+  return {
+    apiKey:
+      process.env.SHOPIFY_API_KEY || console.log("SHOPIFY_API_KEY is not set"),
+  };
 };
 
 export default function App() {
@@ -24,7 +27,7 @@ export default function App() {
         <Link to="/app" rel="home">
           Home
         </Link>
-        <Link to="/app/left-to-right">Right to left</Link>
+        <Link to="/app/right-to-left">Right to left</Link>
         <Link to="/app/fonts">Fonts</Link>
         <Link to="/app/notifications">Notifications</Link>
         <Link to="/app/dynamic-buttons">Dynamic buttons</Link>

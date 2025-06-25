@@ -1,5 +1,5 @@
 {
-  "include": ["env.d.ts", "**/*.ts", "**/*.tsx", "app/.server/error.tsx"],
+  "include": ["env.d.ts", "**/*.ts", "**/*.tsx", "app/.server/error.tsx", "tailwind.config.js", "postcss.config.js"],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
     "strict": true,

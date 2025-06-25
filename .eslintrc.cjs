@@ -1,5 +1,5 @@
 /** @type {import('@types/eslint').Linter.BaseConfig} */
-module.exports = {
+export default {
   root: true,
   extends: [
     "@remix-run/eslint-config",
@@ -9,5 +9,8 @@ module.exports = {
   ],
   globals: {
     shopify: "readonly",
+  },
+  rules: {
+    "prefer-template": "warn",
   },
 };
