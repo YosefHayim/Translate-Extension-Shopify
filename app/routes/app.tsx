@@ -24,7 +24,18 @@ export default function App() {
         <Link to="/app" rel="home">
           Home
         </Link>
-        <Link to="/app/additional">Additional page</Link>
+        <Link to="/app/left-to-right">Right to left</Link>
+        <Link to="/app/fonts">Fonts</Link>
+        <Link to="/app/notifications">Notifications</Link>
+        <Link to="/app/dynamic-buttons">Dynamic buttons</Link>
+        <Link to="/app/payment-methods">Payment methods</Link>
+        <Link to="/app/accessbility">Accessbility</Link>
+        <Link to="/app/auto-postal-code">Auto postal code</Link>
+        <Link to="/app/order-cancellation">Order cancellation</Link>
+        <Link to="/app/guide">Guide</Link>
+        <Link to="/app/subscription-plans">Subscription plans</Link>
+        <Link to="/app/support">Support</Link>
+        <Link to="/app/our-apps">Our apps</Link>
       </NavMenu>
       <Outlet />
     </AppProvider>
